@@ -1,7 +1,8 @@
 import sqlite3
 import requests
 import time
-
+#https://www.sqlite.org/download.html
+#pip install requests
 response=requests.get("https://covid19.th-stat.com/api/open/today")
 data=response.json()
 
